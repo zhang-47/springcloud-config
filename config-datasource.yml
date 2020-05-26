@@ -1,4 +1,5 @@
-datasource:
-    url: jdbc:mysql://localhost:3306/storedb?serverTimezone=UTC
-    username: root
-    password: root
+spring:
+    datasource:
+        url: jdbc:mysql://localhost:3306/storedb?serverTimezone=UTC
+        username: root
+        password: root
